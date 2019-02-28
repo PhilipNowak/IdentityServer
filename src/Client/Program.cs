@@ -13,7 +13,7 @@ namespace Client
             // discover endpoints from metadata
             var client = new HttpClient();
 
-            var disco = await client.GetDiscoveryDocumentAsync("http://localhost:5000");
+            var disco = await client.GetDiscoveryDocumentAsync("https://identityserver20190228022546.azurewebsites.net");
             if (disco.IsError)
             {
                 Console.WriteLine(disco.Error);

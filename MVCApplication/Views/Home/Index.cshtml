@@ -112,6 +112,7 @@
 <dl>
     @foreach (var prop in (await Context.AuthenticateAsync()).Properties.Items)
     {
+        var test = (await Context.AuthenticateAsync()).Properties.Items;
         <dt>@prop.Key</dt>
         <dd>@prop.Value</dd>
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -46,11 +47,20 @@ namespace MVCApplication
                 .AddCookie("Cookies")
                 .AddOpenIdConnect("oidc", options =>
                 {
-                    options.Authority = "http://localhost:5000";
+                    options.Authority = "https://identityserver20190228022546.azurewebsites.net";
                     options.RequireHttpsMetadata = false;
 
                     options.ClientId = "mvc";
                     options.SaveTokens = true;
+
+                    options.ClientSecret = "secret";
+                    options.ResponseType = "code id_token";
+
+                    options.GetClaimsFromUserInfoEndpoint = true;
+
+                    options.Scope.Add("api1");
+                    options.Scope.Add("offline_access");
+                    options.ClaimActions.MapJsonKey("website", "website");
                 });
         }
 

@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "src\Api\Api.csproj",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "src\Client\Client.csproj", "{E42558BF-6A60-468C-9771-5AFC86242AE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGrantConsole", "PasswordGrantConsole\PasswordGrantConsole.csproj", "{D641A53A-6994-40AD-9A17-A4B2FDBB5725}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordGrantConsole", "PasswordGrantConsole\PasswordGrantConsole.csproj", "{D641A53A-6994-40AD-9A17-A4B2FDBB5725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCApplication", "MVCApplication\MVCApplication.csproj", "{920DA4D2-F2C2-4824-BFBC-05861B8E99D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCApplication", "MVCApplication\MVCApplication.csproj", "{920DA4D2-F2C2-4824-BFBC-05861B8E99D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
