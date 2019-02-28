@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordGrantConsole", "Pas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCApplication", "MVCApplication\MVCApplication.csproj", "{920DA4D2-F2C2-4824-BFBC-05861B8E99D4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScriptClient", "src\JavaScriptClient\JavaScriptClient.csproj", "{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,18 @@ Global
 		{920DA4D2-F2C2-4824-BFBC-05861B8E99D4}.Release|x64.Build.0 = Release|Any CPU
 		{920DA4D2-F2C2-4824-BFBC-05861B8E99D4}.Release|x86.ActiveCfg = Release|Any CPU
 		{920DA4D2-F2C2-4824-BFBC-05861B8E99D4}.Release|x86.Build.0 = Release|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Debug|x64.Build.0 = Debug|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Debug|x86.Build.0 = Debug|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Release|x64.ActiveCfg = Release|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Release|x64.Build.0 = Release|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Release|x86.ActiveCfg = Release|Any CPU
+		{E9D24A11-CCD4-4D4D-96AE-5913DD3A2357}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
